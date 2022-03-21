@@ -1,4 +1,4 @@
-# The-Wafferes-Fault-Detection-Project
+# The-Wafers-Fault-Detection-Project
 This Project is about Fault Detection In Wafferes Based On Sensor Data.
 
 # Problem Statement:-
