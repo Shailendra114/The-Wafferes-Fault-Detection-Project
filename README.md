@@ -41,4 +41,14 @@ Null values in columns - If any of the columns in a file have all the values as 
 
 * Insertion of files in the table - All the files in the "Good_Data_Folder" are inserted in the above-created table. If any file has invalid data type in any of the columns, the file is not loaded in the table and is moved to "Bad_Data_Folder".
 # Model Training:-
+* Data Export from Db - The data in a stored database is exported as a CSV file to be used for model training.
 
+* Data Preprocessing
+
+a) Check for null values in the columns. If present, impute the null values using the KNN imputer.
+
+b) Check if any column has zero standard deviation, remove such columns as they don't give any information during model training.
+
+* Clustering - KMeans algorithm is used to create clusters in the preprocessed data. The optimum number of clusters is selected by plotting the elbow plot, and for the dynamic selection of the number of clusters, we are using "KneeLocator" function. The idea behind clustering is to implement different algorithms To train data in different clusters. The Kmeans model is trained over preprocessed data and the model is saved for further use in prediction.
+
+* Model Selection - After clusters are created, we find the best model for each cluster. We are using two algorithms, "Random Forest" and "XGBoost". For each cluster, both the algorithms are passed with the best parameters derived from GridSearch. We calculate the AUC scores for both models and select the model with the best score. Similarly, the model is selected for each cluster. All the models for every cluster are saved for use in prediction.
