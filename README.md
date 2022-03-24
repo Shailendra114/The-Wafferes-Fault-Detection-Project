@@ -15,6 +15,9 @@ A wafer we can see in the picture below-
 -1 means that the wafer is faulty and it needs to be replaced.
 
 # Architecture:-
+
+![image](https://user-images.githubusercontent.com/88799249/159979820-fc6c54a7-53ee-46a1-847c-75678dc2f3df.png)
+
 # Data Description:-
 The client will send data in multiple sets of files in batches at a given location. Data will contain Wafer names and 590 columns of different sensor values for each wafer. The last column will have the "Good/Bad" value for each wafer.
 
