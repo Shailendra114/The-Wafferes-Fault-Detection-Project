@@ -13,6 +13,8 @@ A wafer we can see in the picture below-
 +1 means that the wafer is in a working condition and it doesn’t need to be replaced.
 
 -1 means that the wafer is faulty and it needs to be replaced.
+
+# Architecture:-
 # Data Description:-
 The client will send data in multiple sets of files in batches at a given location. Data will contain Wafer names and 590 columns of different sensor values for each wafer. The last column will have the "Good/Bad" value for each wafer.
 
