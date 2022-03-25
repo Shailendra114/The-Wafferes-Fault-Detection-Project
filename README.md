@@ -15,6 +15,7 @@ A wafer we can see in the picture below-
 -1 means that the wafer is faulty and it needs to be replaced.
 
 # Architecture:-
+The process outline that we will follow in the project is as follows-
 
 ![image](https://user-images.githubusercontent.com/88799249/159979820-fc6c54a7-53ee-46a1-847c-75678dc2f3df.png)
 
