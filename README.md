@@ -64,3 +64,6 @@ Client will send the data in multiple set of files in batches at a given locatio
 
 ![image](https://user-images.githubusercontent.com/88799249/160171668-236f761a-ad6e-48ed-8187-dd3dbf3c7f8d.png)
 # Challenges Faced:-
+
+![image](https://user-images.githubusercontent.com/88799249/160250198-97bab958-0eae-43ba-bff2-be4a9fbc0484.png)
+
