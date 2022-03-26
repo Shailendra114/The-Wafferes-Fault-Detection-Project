@@ -10,9 +10,9 @@ A wafer we can see in the picture below-
 ![image](https://user-images.githubusercontent.com/88799249/159338687-c5b8972d-9788-40fc-a369-7e98bc6f6a7d.png)
 
 
-+1 means that the wafer is in a working condition and it doesn’t need to be replaced.
+* +1 means that the wafer is in a working condition and it doesn’t need to be replaced.
 
--1 means that the wafer is faulty and it needs to be replaced.
+* -1 means that the wafer is faulty and it needs to be replaced.
 
 # Architecture:-
 The process outline that we will follow in the project is as follows-
